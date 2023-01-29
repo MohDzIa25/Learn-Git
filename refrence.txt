@@ -1,1 +1,33 @@
-this file contains resources for refrences
+This file contains git command for refrences-
+
+
+1)To intialise git on folder use- git init
+2)To check status- git status
+3)To add a file in staging area(i.e, to use git on it)- git add <file name>/git add .(to add all files)
+4)To add commit-git commit -m “Commit message”//It is good practice to write commit message in present tense (complete Chap 1 )
+5) To see what commits are done -git log
+6)To see the diff made in files in staging area-git diff <file name>
+-------------ls -a…………………..to see hidden files……………………………………………………………….
+7)To move to the prv version of file in staging area- git checkout <file name>
+8)To remove files from staging area –    git rm -r –cached <file name>/.
+
+
+
+These are for git in local computer but remotely using a repo use git hub
+1)	To add local git folder to github- create a new repo, and
+•	git remote add origin <link of your repo> (remote= using remotely(on somoones else computer) , origin is the name of your repo on local storage(can use any name but origin preferred))
+•	git push -u origin master (-u=flag , origin=name, master = the main branch)
+      2)gitignore-
+•	to prevent secrets(password,..) and useless things from being added in remote repo we use gitignore
+•	write names of all the files to be ignored in .gitignore file
+3)cloning
+•	to clone git repo in our local storage – git clone <link>
+      4)branching and merging
+•	git branch- to check the current branch
+•	git branch <branch name> - to add new branch
+•	git checkout <branch name>/master  - to move to that branch
+•	git merge <branch name> - to merge that branch(to exist use :q!)
+•	git push -u origin master
+
+
+
